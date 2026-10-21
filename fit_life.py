@@ -8,6 +8,7 @@ user_age = int(user_age)
 # Обозначаем переменные на имя и возраст
 # Данные переменной user_age переводим в числовое значение
 
+
 user_weight = input("Укажите ваш вес в килограммах. : ")
 user_height = input("Укажите ваш рост в метрах : ")
 user_weight = float(user_weight)
