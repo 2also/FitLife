@@ -20,10 +20,10 @@ bmi = user_weight / (user_height ** 2)
 bmi = round(bmi, 1)
 
 
-Water_ml = user_weight * ML_PER_KG
-Water_l = Water_ml / ML_TO_LITERS
+water_ml = user_weight * ML_PER_KG
+water_l = water_ml / ML_TO_LITERS
 
 
 print(f'Отчет для {user_name} ({user_age} г.)')
 print(f'Твой индекс массы тела: {bmi}')
-print(f'Рекомендуемая норма употребления воды: {Water_l:.1f} л.')
+print(f'Рекомендуемая норма употребления воды: {water_l:.1f} л.')
